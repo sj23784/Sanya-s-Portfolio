@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanya Jain | Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: #000;
+            color: #f5f5f5;
+        }
+        header {
+            background: #111;
+            color: #00ffcc;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-weight: bold;
+            font-size: 2.5em;
+        }
+        nav a {
+            color: #00ffcc;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            color: #ffcc00;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .project-card {
+            background: #111;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+            transition: transform 0.3s ease;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+        .project-card a {
+            color: #00ffcc;
+            text-decoration: none;
+        }
+        footer {
+            background: #111;
+            color: #888;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sanya Jain</h1>
+        <p>Finance and Trading Enthusiast | Aspiring Analyst</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I'm Sanya Jain, passionate about finance, trading, and analytics. I love diving deep into data, uncovering insights, and applying them to real-world markets. This is my portfolio where I showcase my journey and projects.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>Project Title 1</h3>
+                <p>Brief description of the project. What it does, what tools you used, or any interesting insight.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Project Title 2</h3>
+                <p>Brief description of the project. Maybe a finance model, dashboard, or report.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Project Title 3</h3>
+                <p>Another project with a summary. Customize this for your specific projects.</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out via <a href="mailto:youremail@example.com">email</a> or connect with me on <a href="https://linkedin.com">LinkedIn</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sanya Jain. All rights reserved.</p>
+    </footer>
+</body>
+</html>
